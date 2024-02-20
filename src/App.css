@@ -1,0 +1,71 @@
+/** Header */
+.header {
+    width: 100%;
+    padding: 20px 5%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 20%;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+/** News article */
+.news {
+    width: 22%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    row-gap: 12px;
+}
+
+.news-article {
+    width: 100%;
+    padding: 30px 5%;
+    background-color: #f2f2f2;
+    display: flex;
+    column-gap: 4%;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.news-img {
+    width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://icon-library.com/images/no-picture-available-icon/no-picture-available-icon-1.jpg);
+    background-size: cover;
+}
+
+.news-img img {
+    max-width: 100%;
+    height: 200px;
+    vertical-align: middle; 
+    font-style: italic; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    font-size: 0.75rem;
+}
+
+.source {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+
+
+
